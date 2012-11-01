@@ -1,0 +1,34 @@
+{
+  "name": "rudolf",
+  "version": "0.1.1",
+  "description": "Simple Task-Management Framework using redis as job queue.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevex/rudolf.git"
+  },
+  "keywords": [
+    "task",
+    "rudolf",
+    "process",
+    "redis",
+    "job",
+    "queue",
+    "multi"
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "hiredis": ">=0.1.14",
+    "redis": ">=0.8.1"
+  },
+  "author": "Niklas Voss",
+  "license": "BSD"
+}
